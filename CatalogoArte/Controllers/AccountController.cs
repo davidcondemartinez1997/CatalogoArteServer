@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using CatalogoArte.Models;
 using CatalogoArte.Providers;
 using CatalogoArte.Results;
+using CatalogoArteServer.Models;
 
 namespace CatalogoArte.Controllers
 {

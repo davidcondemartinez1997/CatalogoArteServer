@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using CatalogoArte.Providers;
 using CatalogoArte.Models;
+using CatalogoArteServer.Models;
 
 namespace CatalogoArte
 {
