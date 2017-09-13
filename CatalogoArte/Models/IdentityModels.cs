@@ -4,6 +4,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using System.Data.Entity;
+using System;
 
 namespace CatalogoArteServer.Models
 {
@@ -21,6 +22,7 @@ namespace CatalogoArteServer.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        [ThreadStatic]
         public static ApplicationDbContext applicationDbContext;
 
         public ApplicationDbContext()
